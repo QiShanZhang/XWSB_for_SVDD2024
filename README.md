@@ -1,5 +1,5 @@
-# SVDD Challenge Baseline Systems
-This repository contains the baseline system implementations for the SVDD Challenge 2024. To form a comprehensive evaluation, we implemented the front-end features, back-end systems and the evaluation metrics. The baseline systems are implemented in Python and are available as open-source software.
+# SVDD Challenge XWSB Systems
+This repository contains the XWSB system implementations for the SVDD Challenge 2024. To form a comprehensive evaluation, we implemented the front-end features, back-end systems and the evaluation metrics. The baseline systems are implemented in Python and are available as open-source software.
 
 # Updates
 - March 12, 2024: Since during baseline training, our code contains flipped labels, you need to manually flip the sign of the predicted scores if you are only inferencing from our provided baseline systems. To do so, please add a line in `eval.py` after 31: `pred *= -1.0`.
